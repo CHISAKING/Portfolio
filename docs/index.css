@@ -51,3 +51,9 @@ img {
 footer{
   text-align: center;
 }
+
+img {
+  display: inline-block;
+  margin: auto;
+  width: 10vh; /* ビューポートが 600px だとしたら、画像の幅は 60px になる */
+}
