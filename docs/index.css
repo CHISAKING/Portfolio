@@ -26,7 +26,7 @@ nav {
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 600px) 
   and (-webkit-min-device-pixel-ratio: 3) {
     /* 左寄せ */
     ul{
