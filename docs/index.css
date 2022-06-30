@@ -43,7 +43,8 @@ nav {
 
 /* 画像サイズを常にウィンドウ幅に設定 */
 img{
-  width: 20vh;
+  width: 30vw;
+  height: 60vh
 }
 
 /* Copyrightをセンタリング */
