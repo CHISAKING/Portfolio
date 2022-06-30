@@ -52,15 +52,16 @@ footer{
   text-align: center;
 }
 
-ul{
+ul.pic{
   display: flex;
   flex-wrap: wrap;
 }
-li{
+li.pic{
   position: relative;
-  width: 25%;
+  list-style: none;
+  width: 30%;
 }
-li:before{
+li.pic:before{
   content: "";
   display: block;
   padding-top: 100%;
