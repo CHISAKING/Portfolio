@@ -42,9 +42,8 @@ nav {
 }
 
 /* 画像サイズを常にウィンドウ幅に設定 */
-img {
-  width: 30%;
-  height: auto;
+img{
+  width: 30vw;
 }
 
 /* Copyrightをセンタリング */
