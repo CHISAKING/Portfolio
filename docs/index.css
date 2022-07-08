@@ -11,7 +11,7 @@ nav {
   li.menu {
     list-style: none;
   }
-  a {
+ a.imgs {
     display: block;
     text-decoration: none;
     color: white;
