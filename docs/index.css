@@ -11,7 +11,7 @@ nav {
   li.menu {
     list-style: none;
   }
- a.imgs {
+ a {
     display: block;
     text-decoration: none;
     color: white;
@@ -25,55 +25,54 @@ nav {
 /* ----------- iPhone 11 Pro ----------- */
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 200px) 
-  and (max-device-width: 200px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
+and (min-device-width: 200px) 
+and (max-device-width: 200px) 
+and (-webkit-min-device-pixel-ratio: 3) {
     /* 左寄せ */
     ul{
-      padding-left: 0;
+        padding-left: 0;
     }
-
     li {
-      color: #ffffff;
-      background-color: #030006;
+        color: #ffffff;
+        background-color: #030006;
       margin:1em; /* 紫領域の外枠の余白を設定 */
       padding:1em;/* 紫領域の内枠の余白を設定 */
     }
 }
 
 /* 画像サイズを常にウィンドウ幅に設定 */
-img{
-  width: 30vw;
-  height: 60vh
+img.pic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: cover;
 }
-
 /* Copyrightをセンタリング */
 footer{
-  text-align: center;
+    text-align: center;
 }
 
 ul.pic{
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 li.pic{
-  position: relative;
-  list-style: none;
-  width: 30%;
+    position: relative;
+    list-style: none;
+    width: 30%;
 }
 li.pic:before{
-  content: "";
-  display: block;
-  padding-top: 100%;
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
-img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  object-fit: cover;
+
+img.work{
+    width: 600px;
+    height: 320px;
 }
