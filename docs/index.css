@@ -77,3 +77,7 @@ img.work{
     height: 320px;
 }
 
+body {
+  font-family: sans-serif;
+  scrollbar-width: none;
+}
