@@ -40,6 +40,20 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 }
 
+html {
+  font-size: 75%;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
+
 /* 画像サイズを常にウィンドウ幅に設定 */
 img.pic{
     position: absolute;
@@ -77,7 +91,3 @@ img.work{
     height: 320px;
 }
 
-body {
-  font-family: sans-serif;
-  scrollbar-width: none;
-}
