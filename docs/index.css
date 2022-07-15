@@ -57,7 +57,7 @@ html {
 /* 画像サイズを常にウィンドウ幅に設定 */
 img.pic{
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 100%;
     top: 0;
     right: 0;
