@@ -1,71 +1,105 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Work - Portfolio</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>chisaki's portfolio</title>
-    <style type="text/css">body { background : linear-gradient(-45deg, rgba(246, 185, 95, 0.8), rgba(249, 248, 249, 0.8)) fixed, url(https://s3.ap-northeast-1.amazonaws.com/magazine.jalan.net/img/2021/11/20211104_kamakura-cafe_5-670x443.png) fixed;
-    background-size: cover;} </style>
-    <link href="index.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-    <nav>
-        <ul class="menu">
-            <li class="menu"><a href="#home">Home</a></li>
-            <li class="menu"><a href="#skill">Skill</a></li>
-            <li class="menu"><a href="#works">Works</a></li>
-            <li class="menu"><a href="#contact">Contact</a></li>
+  <body>
+    <header id="header">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
+            </a>
+          </li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-    <h3 id="Home">Home</h3>
-    <ul class="pic">
-        <li class="pic"><img class="pic" src="https://chisaking.github.io/Portfolio/chisaki.png" alt=""></li>
-        <li class="pic"><img class="pic" src="https://chisaking.github.io/Portfolio/book.jpg" alt=""></li>
-        <li class="pic"><img class="pic" src="https://chisaking.github.io/Portfolio/odaiba.png" alt=""></li>
-    </ul>
-    <ul>
-        <li>名前: 小林 千沙希 Chisaki Kobayashi</li>
-        <li>武蔵野大学 データサイエンス学部 2年生 Faculty of Data Science, Musashino University</li>
-        <li>趣味: 読書、映画鑑賞、体を動かすこと</li>
-        <li>特技: 書道、空手</li>
-        <li>目標: 新しい知識を全部吸収して自分の財産にする</li>
-    </ul>
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+          <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
 
-    <h3 id="skill">Skill</h3>
-    <ul>
-        <li>Python: 3年目</li>
-        <li>HTML/CSS</li>
-        <li>書道: 特待生取得、北多摩毛筆書写コンクール3年連続特別賞、校内書写展覧会3年連続金賞など多数</li>
-        <li>空手: 極真空手世界大会ベスト4、関東大会第3位、2級取得など多数</li>
-        <li>資格: 日本漢字能力検定2級所得</li>
-        <li>Pythonの資格（勉強中）</li>
-    </ul>
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>Xxxxx Ashley</li>
+          <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+          <li>tel: 000-0000-0000</li>
+          <li>url: www.xxxxxx.jp</li>
+          <li>mail: xxx@xxxxxx.jp</li>
+        </ul>
+        <p>
+          プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+      </section>
 
-    <h3 id="works">Works</h3>
-    <ul>
-        <li>
-            <strong>情報処理学会 第85回全国大会 論文発表: 感情ベクトルを用いた小説の場面毎における背景音楽推薦システム(2022-09~2023-0302)</strong>
-        </li>
-        <p>小説と歌詞、曲調と文章の雰囲気の2方面から文章ベクトル、感情ベクトルを生成し場面に合致した背景音楽を推薦する。</p>
-        <p>↓画像からリンク飛べます</p>
-        <a style="color:darkbrown" class="from" href="https://www.canva.com/design/DAFH52PGeGY/Kp3s8zKsNUx0zg5afxvBDw/view"><img class="work" src="https://github.com/CHISAKING/Portfolio/blob/main/docs/mirai.png" alt=""></a>
-        <br>
-        <li>
-            <strong>客の表情、感情を元に飲食店の照明演出の自動生成を行う(2021-04~2021-12)</strong>
-        </li>
-        <p>料理の待ち時間に視点を当てて、客の表情や感情を分析して照明の自動演出を行い、少しでも待ち時間が退屈にならないシステム。</p>
-        <p>使用言語：Python</p>
-        <p>↓画像からリンク飛べます</p>
-        <a style="color:darkbrown" class="from" href="https://www.canva.com/design/DAEvMKiDYAs/7Xhs0ENsVsP8uJlxv2QKqQ/view"><img class="work" src="https://chisaking.github.io/Portfolio/mirai3.jpg" alt=""></a>
-        <br>
-        
-    </ul>
-    </div>
-    </ul>
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+          <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works4.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works5.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works6.jpg" alt="テキストテキストテキスト"></li>
+        </ul>
+      </section>
 
-    <footer>©2023 Chisaki Kobayashi</footer>
-</body>
+      <section id="news" class="wrapper">
+        <h2 class="sec-title">News</h2>
+        <dl>
+          <dt>2020.XX.XX</dt>
+          <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+          <dt>2020.XX.XX</dt>
+          <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+          <dt>2019.XX.XX</dt>
+          <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+          <dt>2019.XX.XX</dt>
+          <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+          <dt>2019.XX.XX</dt>
+          <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        </dl>
+      </section>
+
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2020 My Work</p>
+    </footer>
+
+  </body>
+
 </html>
-
