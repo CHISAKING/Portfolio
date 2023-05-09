@@ -4,7 +4,7 @@ html {
   font-size: 100%;
 }
 body {
-  color: #24292e;
+  color: #050606;
 }
 a {
   text-decoration: none;
@@ -27,7 +27,7 @@ li {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #333;
+  color: #100f0f;
   padding: 20px;
   float: left;
 }
