@@ -17,7 +17,7 @@ li {
 }
 
 .wrapper {
-  max-width: 960px;
+  max-width: 850px;
   margin: 0 auto 130px auto;
   font-size: 0.9rem;
   padding: 0 4%;
@@ -268,4 +268,3 @@ li {
     width: 100%;
   }
 }
-
